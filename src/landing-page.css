@@ -1,0 +1,143 @@
+body{
+    margin:0;
+    padding:0; 
+    font-family:Inter; 
+}
+
+.navbar-sign-in{
+    text-decoration: underline;
+}
+
+.section-1{
+    background:url('./assets/Vector.png') right no-repeat, url('./assets/hero-bg-2.png') right no-repeat;
+
+}
+
+.navbar{
+    display:flex; 
+    justify-content: space-between;
+    padding-right:80px;
+}
+
+.navbar-right-side{
+    display:flex; 
+    align-items: center;
+    gap:32px;
+}
+
+.hero-section{
+    display:flex; 
+    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    padding-bottom:42px;
+    
+}
+
+.hero-section h1{
+    width:50%;
+    text-align: center;
+    font-size:62.25px;
+    font-weight:1000; 
+}
+
+.hero-section span{
+    font-size:20px; 
+    line-height:30px;
+    width:800px;
+    text-align:center;
+    padding-bottom:24px;
+}
+
+.section-2{
+    background:#111827;
+    padding:84px 24px;
+}
+
+.section-2-heading{
+    color:white;
+    font-weight:1000;
+    display:flex; 
+    justify-content: center;
+    padding-bottom:48px;
+}
+
+.carousel{
+    display:flex;
+    justify-content: space-evenly;
+    overflow:hidden;
+
+}
+
+#carousel-right-border{
+    position:absolute;
+    right:0;
+}
+
+#carousel-left-border{
+    position:absolute;
+    left:0;
+    transform:scaleX(-1); 
+    z-index:2;
+}
+
+.section-3{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:48px;
+    position: relative;
+}
+
+.section-3-heading{
+    width: 691.16px;
+    font-family: Inter;
+    font-size: 43.13px;
+    font-weight: 800;
+    line-height: 48px;
+    text-align: center;
+    padding-bottom:50px;
+}
+
+.player-button{
+    background:white;
+    border:none;
+    border-radius:24px;
+    padding:16px 32px;
+    display:flex; 
+    align-items: center;
+    gap:8px;
+    position:absolute; 
+
+}
+
+.video-player{
+    display:flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+#left-wf{
+    position:absolute;
+    left:470px;
+    top:200px;
+    
+}
+
+#right-wf{
+    position:absolute;
+    z-index:10;
+    right:450px;
+    top:150px;
+
+
+}
+
+
+
+
+
+
+
+
