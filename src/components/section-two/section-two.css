@@ -1,0 +1,31 @@
+.section-2 {
+    background: #111827;
+    padding: 84px 24px;
+}
+
+.section-2-heading {
+    color: white;
+    font-weight: 1000;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 48px;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+
+}
+
+#carousel-right-border {
+    position: absolute;
+    right: 0;
+}
+
+#carousel-left-border {
+    position: absolute;
+    left: 0;
+    transform: scaleX(-1);
+    z-index: 2;
+}

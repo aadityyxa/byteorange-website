@@ -4,50 +4,7 @@ body{
     font-family:Inter; 
 }
 
-.navbar-sign-in{
-    text-decoration: underline;
-}
 
-.section-1{
-    background:url('./assets/Vector.png') right no-repeat, url('./assets/hero-bg-2.png') right no-repeat;
-
-}
-
-.navbar{
-    display:flex; 
-    justify-content: space-between;
-    padding-right:80px;
-}
-
-.navbar-right-side{
-    display:flex; 
-    align-items: center;
-    gap:32px;
-}
-
-.hero-section{
-    display:flex; 
-    justify-content: center;
-    flex-direction:column;
-    align-items: center;
-    padding-bottom:42px;
-    
-}
-
-.hero-section h1{
-    width:50%;
-    text-align: center;
-    font-size:62.25px;
-    font-weight:1000; 
-}
-
-.hero-section span{
-    font-size:20px; 
-    line-height:30px;
-    width:800px;
-    text-align:center;
-    padding-bottom:24px;
-}
 
 .section-2{
     background:#111827;
@@ -109,6 +66,7 @@ body{
     align-items: center;
     gap:8px;
     position:absolute; 
+    font-weight:bold;
 
 }
 
@@ -116,6 +74,7 @@ body{
     display:flex; 
     justify-content: center;
     align-items: center;
+    margin-bottom:84px;
 }
 
 #left-wf{
@@ -133,6 +92,107 @@ body{
 
 
 }
+
+.flow-chart{
+    display:flex; 
+    gap:64px;
+    position:relative;
+    margin-bottom:72px;
+}
+
+.fc-section{
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.circle{
+    border-radius:50%; 
+    background:#111827;
+    color:white;
+    padding:8px 14px;
+
+}
+
+.fc-section span{
+    font-size:1rem;
+    text-align:center;
+}
+
+.fc-line{
+    width:78%; 
+    height:2px;
+    background:#d9d9d9;
+    position:absolute; 
+    right:170px;
+    top:18px;
+    z-index:-1;
+
+
+}
+
+h4{
+    padding:0;
+    margin:0;
+}
+
+.fc-section h4{
+    margin:14px 0px;
+}
+
+.section-four{
+    background:url('./assets/section-four/section-four-background-1.png')  left no-repeat, url('./assets/section-four/Section.png');
+}
+
+.section-four h2{
+    font-size:42px;
+    font-weight: 1000;
+    color:white; 
+    width:700px;
+    padding:72px 150px;
+}
+
+.section-four-infographs{
+    display:flex; 
+    gap:84px;
+    padding:84px;
+}
+
+.infograph{
+    display:flex; 
+    flex-direction:column; 
+    color:white;
+    padding:16px;
+}
+
+.infograph img{
+    height:32px;
+    width:32px;
+    padding-bottom:8px;
+}
+
+.infograph span{
+    font-weight:200;
+}
+
+.infograph-title{
+    padding-bottom:18px;
+}
+
+.infograph:hover{
+    background:linear-gradient(rgba(255,255,255,0.3), rgba(255,255,255,0.3));
+}
+
+
+.slider-container{
+    padding-left:450px;
+}
+
+
+
+
+
+
 
 
 

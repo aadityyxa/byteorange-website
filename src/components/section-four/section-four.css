@@ -1,0 +1,46 @@
+.section-four {
+    background: url('../../assets/section-four/section-four-background-1.png') left no-repeat, url('../../assets/section-four/Section.png');
+}
+
+.section-four h2 {
+    font-size: 42px;
+    font-weight: 1000;
+    color: white;
+    width: 700px;
+    padding: 72px 150px;
+}
+
+.section-four-infographs {
+    display: flex;
+    gap: 84px;
+    padding: 84px;
+}
+
+.infograph {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 16px;
+}
+
+.infograph img {
+    height: 32px;
+    width: 32px;
+    padding-bottom: 8px;
+}
+
+.infograph span {
+    font-weight: 200;
+}
+
+.infograph-title {
+    padding-bottom: 18px;
+}
+
+.infograph:hover {
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+}
+
+.slider-container {
+    padding-left: 450px;
+}

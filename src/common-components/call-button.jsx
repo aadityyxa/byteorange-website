@@ -1,5 +1,5 @@
 import './call-button.css';
-import ScheduleCallArrow from '../assets/schedule-call-arrow.png'; 
+import ScheduleCallArrow from '../assets/section-one/call-button-arrow.png'; 
 
 export default function CallButton() {
 

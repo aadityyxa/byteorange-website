@@ -1,0 +1,50 @@
+.question{
+    font-weight:bold; 
+    padding-bottom:12px;
+}
+
+.answer{
+    color:#6b7280;
+    line-height:16px;
+}
+
+.faq-list-item{
+    margin:16px 0px;
+}
+
+.faq-heading{
+    font-size:42px; 
+    font-weight:1000;
+}
+
+.faq-section{
+    padding: 48px 450px;
+}
+
+.faqs{
+    display:flex; 
+    flex-direction: column;  
+    align-items: center;  
+}
+
+.quote{
+    font-weight:800;
+    margin:0px 350px;
+    margin-top:48px;
+    margin-bottom:16px;
+    font-size:16px;
+    text-align: center;
+    line-height:24px;
+}
+
+.quote-section{
+    padding-top:64px;
+    display:flex; 
+    flex-direction: column;
+    align-items: center;
+    background:url('../../assets/section-eight/section-eight-orange-blob.png') no-repeat  center;
+}
+
+.customer-name span{
+    color: #2563EB;
+}
