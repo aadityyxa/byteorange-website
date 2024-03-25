@@ -8,10 +8,12 @@ import SectionSeven from './components/section-seven/section-seven'
 import SectionEight from "./components/section-eight/section-eight";
 import Footer from "./components/footer/footer";
 
-import './landing-page.css'
+import './index.css'
 
 
 export default function LandingPage() {
+
+    document.title = "ByteOrange"
 
 
     return (
