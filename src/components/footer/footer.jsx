@@ -1,6 +1,9 @@
 import CallButton from "../../common-components/call-button"
 import './footer.css';
 import orangeBlob from '../../assets/footer/footer-orange-blob.png';
+import githubLogo from '../../assets/footer/github-logo.png';
+import twitterLogo from '../../assets/footer/twitter-logo.png';
+import telegramLogo from '../../assets/footer/telegram-logo.png'
 
 export default function Footer() {
 
@@ -56,6 +59,12 @@ export default function Footer() {
             <div className="footer-bottom">
                 <div className="copyright-text">
                     © Byteorange.com. All rights reserved.
+                </div>
+
+                <div className="social-logos">
+                    <img src={githubLogo} alt="" className="social"/>
+                    <img src={twitterLogo} alt="" className="social"/>
+                    <img src={telegramLogo} alt="" className="social"/>
                 </div>
 
                 

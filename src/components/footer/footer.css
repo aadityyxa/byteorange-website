@@ -48,3 +48,17 @@
     margin:16px 0px;
     font-weight:700;
 }
+
+.social-logos{
+    display:flex; 
+    gap:24px;
+}
+
+.footer-bottom{
+    display:flex; 
+    justify-content: space-between;
+}
+
+.social{
+    height:fit-content;
+}
